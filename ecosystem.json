@@ -2,7 +2,7 @@
 {
   "apps":[
     {
-      "name":"End",
+      "name":"SoccerEnd",
       "script":"./app/index.js",
       "env":{
         "COMMON_VARIABLE":"true"
@@ -14,12 +14,11 @@
   ],
   "deploy":{
     "production":{
-      "user":"fitness_man",
-      "host":["47.114.117.170"],
-      "port":"39999",
+      "user":"fitnessman",
+      "host":["39.106.173.84"],
       "ref":"origin/master",
-      "repo":"git@github.com:pupilshuo/FitnessEnd.git",
-      "path":"/fitness/end/production",
+      "repo":"git@gitee.com:xiaoerfeng123/soccerVisualizationEnd.git",
+      "path":"/football/SoccerEnd/production",
       "ssh_options":"StrictHostKeyChecking=no",
       
       "env":{
