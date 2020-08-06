@@ -1,4 +1,4 @@
-const  cors = require('koa2-cors')
+const cors = require('koa2-cors')
 const Koa=require('koa');
 const parameter=require('koa-parameter');
 const koaBodyParser=require('koa-bodyparser');
@@ -10,7 +10,7 @@ const moogoose=require('mongoose');
 const {url}=require('./config');
 //const MongoClient = require('mongodb').MongoClient;
 
-app.use(cors())
+app.use(cors());
 moogoose.connect(url, { useNewUrlParser: true }, ()=> {
 console.log("数据库已创建!");});
 moogoose.connection.on('error',console.error);
