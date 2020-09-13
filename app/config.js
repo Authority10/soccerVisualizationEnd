@@ -4,4 +4,4 @@ module.exports={
     // url : "mongodb://localhost:27017/Soccer",
     url : "mongodb://localhost:27017/soccer",
     secret:'BSU'
-}
+};
